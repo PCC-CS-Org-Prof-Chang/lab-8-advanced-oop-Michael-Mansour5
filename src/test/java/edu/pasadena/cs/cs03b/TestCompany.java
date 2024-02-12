@@ -17,13 +17,17 @@ public class TestCompany {
    {
      String strResult;
      int iResult;
-     // create an instance of the class
-     Company c = new Company();
       
-     // action
+     // create an instance of the class
+     Company c = new Company("Nothing", Michael, 35);
+
+     // test initial conditions
+     strResult = c.getCompanyName();
+     assertEquals("Nothing", strResult);
+      
+     // Test setCompanyName
      c.setCompanyName("Mansour, Inc.");
      strResult = c.getCompanyName();
-     // assertion
      assertEquals("Mansour, Inc.", strResult);
 
       Employer employer1 = new Employer("Michael", 35);
