@@ -32,7 +32,6 @@ public class TestCompany {
      strResult = c.getCompanyName();
      assertEquals("Mansour, Inc.", strResult);
 
-      Employer employer1 = new Employer("Michael", 35);
       c.getEmployer().addNewManager("John", 27, 50000);
       c.getEmployer().addNewManager("James", 25, 45000);
       c.getEmployer().addNewContractor("Ralph", 20, 60000, 200);
