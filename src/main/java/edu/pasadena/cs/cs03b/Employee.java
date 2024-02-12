@@ -10,8 +10,12 @@ public abstract class Employee extends Person{
         this.salary = salary;
     }
 
-    public int returnSalary(){
+    public int getSalary(){
         return this.salary;
+    }
+
+    public String getJob(){
+        return this.job;
     }
     
     public void printJobAndSalary(){
