@@ -24,7 +24,7 @@ public class TestCompany {
      // test initial conditions
      strResult = c.getCompanyName();
      assertEquals("Nothing", strResult);
-     strResult = c.getEmployer.getName();
+     strResult = c.getEmployer().getName();
      assertEquals("Michael", strResult);
       
      // Test setCompanyName
