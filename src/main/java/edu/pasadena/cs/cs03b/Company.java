@@ -4,6 +4,11 @@ public class Company {
 
    private String companyName;
 
+   public Company(String companyName, String name, int age){
+      this.companyName = companyName;
+      Employer employer1 = new Employer(name, age);
+   }
+   
    // setter and getter methods for companyName
    public void setCompanyName(String companyName) {
       this.companyName = companyName;
@@ -13,6 +18,9 @@ public class Company {
       return this.companyName;
    }
 
+   public Employer getEmployer(){
+      return employer1;
+   }
     public static void main(String [] args) {
       // Create the manager, staff, contractor objects and manage the association of employer and employees
       Employer employer1 = new Employer("Michael", 35);
