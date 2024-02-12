@@ -19,11 +19,13 @@ public class TestCompany {
      int iResult;
       
      // create an instance of the class
-     Company c = new Company("Nothing", Michael, 35);
+     Company c = new Company("Nothing", "Michael", 35);
 
      // test initial conditions
      strResult = c.getCompanyName();
      assertEquals("Nothing", strResult);
+     strResult = c.getEmployer.getName();
+     assertEquals("Michael", strResult);
       
      // Test setCompanyName
      c.setCompanyName("Mansour, Inc.");
