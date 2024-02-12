@@ -16,7 +16,7 @@ public class TestCompany {
    public void testCompanyName()
    {
      // create an instance of the class
-      Company c = new Company();
+     Company c = new Company();
       
      // action
      c.setCompanyName("Dummy Company");
