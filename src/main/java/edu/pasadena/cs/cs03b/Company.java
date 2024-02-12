@@ -3,10 +3,11 @@ package edu.pasadena.cs.cs03b;
 public class Company {
 
    private String companyName;
+   private Employee employer1;
 
    public Company(String companyName, String name, int age){
       this.companyName = companyName;
-      Employer employer1 = new Employer(name, age);
+      employer1 = new Employer(name, age);
    }
    
    // setter and getter methods for companyName
@@ -19,7 +20,7 @@ public class Company {
    }
 
    public Employer getEmployer(){
-      return employer1;
+      return this.employer1;
    }
     public static void main(String [] args) {
       // Create the manager, staff, contractor objects and manage the association of employer and employees
