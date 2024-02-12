@@ -19,12 +19,12 @@ public class TestCompany {
      Company c = new Company();
       
      // action
-     c.setCompanyName("Dummy Company");
+     c.setCompanyName("Mansour, Inc.");
      String strResult = c.getCompanyName();
      // assertion
-     assertEquals("Dummy Company", strResult);
+     assertEquals("Mansour, Inc.", strResult);
 
-     // TODO: add more test cases for all public instance methods
-
+     String strResult = c.employer1.getName();
+     assertEquals("Michael", strResult);
    }
 }
