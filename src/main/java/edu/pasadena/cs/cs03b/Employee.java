@@ -11,7 +11,7 @@ public abstract class Employee extends Person{
     }
 
     public int returnSalary(){
-        return salary;
+        return this.salary;
     }
     
     public void printJobAndSalary(){
