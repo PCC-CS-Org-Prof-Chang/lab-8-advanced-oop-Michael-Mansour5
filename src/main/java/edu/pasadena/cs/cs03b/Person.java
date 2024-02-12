@@ -9,6 +9,14 @@ public abstract class Person {
         this.age = age;
     }
 
+    public int getAge(){
+        return this.age;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+    
     public void printNameAndAge(){
         System.out.println("Hey! My name is " + this.name + " and I am " + this.age + " years old!");
     }
