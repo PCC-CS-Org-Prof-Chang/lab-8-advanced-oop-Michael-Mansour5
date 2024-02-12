@@ -9,6 +9,10 @@ public abstract class Employee extends Person{
         this.job = job;
         this.salary = salary;
     }
+
+    public int returnSalary(){
+        return salary;
+    }
     
     public void printJobAndSalary(){
         System.out.println("I am a " + this.job + " and I make $" + this.salary + " each year!");
