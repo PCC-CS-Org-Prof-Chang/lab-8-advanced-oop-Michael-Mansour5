@@ -3,7 +3,7 @@ package edu.pasadena.cs.cs03b;
 public class Company {
 
    private String companyName;
-   private Employee employer1;
+   private Employer employer1;
 
    public Company(String companyName, String name, int age){
       this.companyName = companyName;
